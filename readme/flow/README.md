@@ -1,6 +1,6 @@
 <h4> Alur : </h4>
 
-- PENDING (Pending)
+- PENDING (Pending) <br/>
  USER => 
   - user dapat membatalkan kursus
 
