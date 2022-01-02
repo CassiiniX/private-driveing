@@ -1,11 +1,43 @@
 <h4> Alur : </h4>
 
-- Pertama kali invoice di buat statusnya adalah pending (PENDING)	           
-   Di admin terdapat 2 opsi :        
-   - Admin dapat menolak (REJECTED)
-   - Admin dapat merubah status menjadi pembayaran (PAYMENT)	        
-	
-- Jika belum membayar sampai batas waktu yang di tentukan maka admin dapat mengagalkan invoice (FAILED)	
-- Jika sudah membayar status selanjutnya adalah menunggu (WAITING)    	
-- Jika sudah dalam waktu penyewaan maka statusnya adalah dalam penyewaan (RUNNING)    		 
-- Jika sudah selesai waktu penyewaan maka statusnya adalah selesai (COMPELTED)
+- PENDING (Pending)
+ - USER => 
+  - user dapat membatalkan kursus
+
+ - ADMIN =>
+  - admin dapat menolak kursus
+  - admin dapat menerima kursus setelah itu status menjadi payment (pembayaran) 
+
+- PAYMENT (Pembayaran)
+ - USER =>
+  - user dapat membatalkan kursus
+
+ - ADMIN => 
+  - admin dapat mengagalkan kursus jika pembayaran sudah kadaluarsa
+  - admin dapat memvalidasi pembayaran manual setelah itu status menjadi waiting (menunggu)
+
+- WAITING (Menunggu)
+ - USER => 
+  - user dapat membatalkan
+
+ - ADMIN =>
+  - admin dapat mengubah status menjadi running (berjalan)
+
+- RUNNING (Berjalan)
+ - USER => 
+  - user dapat membatalkan
+
+ - ADMIN =>
+  - admin dapat mengubah status menjadi success (berhasil)
+
+- SUCCESS (Berhasil)
+ - Kursus Telah Selesai
+
+- FAILED (Gagal)
+ - Kursus Telah Gagal
+
+- CANCELED (Dibatalkan)
+ - Kursus Telah Dibatalkan
+
+- REJECTED (Ditolak)
+ - Kursus Telah Ditolak
