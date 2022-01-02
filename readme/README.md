@@ -7,32 +7,34 @@
 <h4> Halaman-halaman : </h4>
 <div>
  <ul>
-  <li>Maintaince</li>
   <li>
     User <br/>
     <ul>
-      <li>Halaman Depan (Landing Page)</li>
-      <li>Masuk (Signin)</li>
-      <li>Daftar (Signup)</li>
-      <li>Profil</li>    
-      <li>Lapangan (Product)</li>
-      <li>Detail Lapangan</li>
-      <li>Order Lapangan</li>
-      <li>Invoice</li>
-      <li>Riwayat Invoice</li>
-      <li>Notifikasi</li>
-      <li>Pembayaran Manual</li>
+      <li>halaman depan</li>
+      <li>masuk</li>
+      <li>daftar</li>
+      <li>keluar</li>
+      <li>profil</li>
+      <li>halaman depan user login</li>
+      <li>paket</li>
+      <li>instruktur</li>
+      <li>kursus anda</li>
+      <li>riwayat kursus</li>
+      <li>detail kursus</li>   
     </ul>      
   </li>
   <li>
     Admin <br/>
     <ul>
-      <li>Kelola User</li>
-      <li>Kelola Lapangan</li>
-      <li>Kelola Review</li>
-      <li>Kelola Invoice</li>
-      <li>Kelola Pembayaran Manual</li>
-      <li>Kelola Setting Website</li>
+      <li>halaman depan admin</li>
+      <li>kelola artikel</li>
+      <li>kelola galeri</li>
+      <li>kelola user</li>
+      <li>kelola kursus</li>
+      <li>kelola paket</li>
+      <li>kelola instruktur</li>
+      <li>kelola pembayaran manual</li>
+      <li>kelola website</li>
     </ul>
   </li>
  </ul>
