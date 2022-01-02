@@ -1,7 +1,7 @@
 <h4> Alur : </h4>
 
 - PENDING (Pending)
- - USER => 
+ USER => 
   - user dapat membatalkan kursus
 
  - ADMIN =>
