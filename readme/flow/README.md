@@ -1,10 +1,9 @@
 <h4> Alur : </h4>
 
-- PENDING (Pending) <br/>
- USER => 
+- PENDING (Pending)
+  USER => 
   - user dapat membatalkan kursus
-
- - ADMIN =>
+  ADMIN =>
   - admin dapat menolak kursus
   - admin dapat menerima kursus setelah itu status menjadi payment (pembayaran) 
 
