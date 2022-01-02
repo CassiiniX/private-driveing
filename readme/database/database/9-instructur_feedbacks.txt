@@ -1,0 +1,12 @@
+user_id
+- integer(11)
+
+instructur_id
+- integer(11)
+
+star
+- tiny integer(11)
+
+comment
+- text
+

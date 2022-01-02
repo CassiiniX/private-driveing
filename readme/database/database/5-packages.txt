@@ -1,0 +1,14 @@
+name
+- varchar(50)
+
+meet
+- integer(11)
+
+cost
+- integer(11)
+
+status
+- enum
+ - active
+ - nonactive
+- active

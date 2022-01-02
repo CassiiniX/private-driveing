@@ -1,0 +1,5 @@
+title
+- varchar(50)
+
+images
+- text

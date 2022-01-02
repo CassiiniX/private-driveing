@@ -1,0 +1,21 @@
+username
+- varchar(50)
+
+email
+- varchar(50)
+
+password
+- text
+
+photo
+- varchar(25)
+- default.png
+
+phone
+- varchar(25)
+
+role
+- enum
+ - user
+ - admin
+- user

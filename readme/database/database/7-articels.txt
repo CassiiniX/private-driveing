@@ -1,0 +1,9 @@
+title
+- varchar(50)
+
+image
+- text
+- default.png
+
+content
+- text

@@ -1,0 +1,32 @@
+user_id
+- integer(11)
+
+instructur_id
+- integer(11)
+
+meet
+- integer(11)
+
+cost
+- integer(11)
+
+hour
+- tiny integer(11)
+
+date_start
+- TANGGAL MULAI AWAL
+
+clock_start
+- JAM PERTEMUAN AWAL
+
+status
+- enum
+ - pending 
+ - payment
+ - waiting
+ - running
+ - success
+ - canceled
+ - failed
+ - rejected
+- pending

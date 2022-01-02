@@ -1,0 +1,18 @@
+user_id
+ - integer(11)
+
+course_id
+ - integer(11)
+
+proof
+ - text
+
+description
+ - text
+
+status
+ - enum
+  - validasi
+  - success
+  - failed
+ - validasi
