@@ -18,11 +18,12 @@ class Articels extends Migration
                     'constraint'     => 50,
             ],
             'image'		  => [
-            		'type'			 => 'TEXT',
-            		'default'		 => 'default.png'
+            		'type'			 => 'VARCHAR',
+                    'constraint'     => 255,
+            		'default'		 => 'default.png',
             ],
             'content'	  => [
-            		'type'			 => 'TEXT'
+            		'type'			 => 'LONGTEXT'
             ],
             'created_at datetime default current_timestamp',
             'updated_at datetime default current_timestamp on update current_timestamp',

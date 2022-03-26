@@ -18,7 +18,9 @@ class Galeries extends Migration
                     'constraint'     => 50,
             ],
             'images'		  => [
-            		'type'			 => 'TEXT',            	
+            		'type'			 => 'VARCHAR',   
+                    'constraint'     => 255,
+                    'null'           => true
             ],        
             'created_at datetime default current_timestamp',
             'updated_at datetime default current_timestamp on update current_timestamp',
